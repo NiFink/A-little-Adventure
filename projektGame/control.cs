@@ -10,6 +10,8 @@ namespace projektGame
 {
     public class control
     {
+
+        //kastanie
         /*
         InGame game = null;
 
