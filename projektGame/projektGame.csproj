@@ -1,0 +1,447 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FF10B235-C023-404A-B1EB-AE03EA553634}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>projektGame</RootNamespace>
+    <AssemblyName>projektGame</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Game\InGame3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Game\InGame3.Designer.cs">
+      <DependentUpon>InGame3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Game\InGame2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Game\InGame2.Designer.cs">
+      <DependentUpon>InGame2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Game\InGame4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Game\InGame4.Designer.cs">
+      <DependentUpon>InGame4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Game\InGame5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Game\InGame5.Designer.cs">
+      <DependentUpon>InGame5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Game\InGame51.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Game\InGame51.Designer.cs">
+      <DependentUpon>InGame51.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Game\InGame6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Game\InGame6.Designer.cs">
+      <DependentUpon>InGame6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Game\InGame7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Game\InGame7.Designer.cs">
+      <DependentUpon>InGame7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menus\Mainmenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menus\Mainmenu.Designer.cs">
+      <DependentUpon>Mainmenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menus\Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menus\Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="gamecontroller.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="gamecontroller.Designer.cs">
+      <DependentUpon>gamecontroller.cs</DependentUpon>
+    </Compile>
+    <Compile Include="control.cs" />
+    <Compile Include="Menus\Options.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menus\Options.Designer.cs">
+      <DependentUpon>Options.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Game\InGame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Game\InGame.Designer.cs">
+      <DependentUpon>InGame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Game\InGame3.resx">
+      <DependentUpon>InGame3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Game\InGame2.resx">
+      <DependentUpon>InGame2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Game\InGame4.resx">
+      <DependentUpon>InGame4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Game\InGame5.resx">
+      <DependentUpon>InGame5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Game\InGame51.resx">
+      <DependentUpon>InGame51.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Game\InGame6.resx">
+      <DependentUpon>InGame6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Game\InGame7.resx">
+      <DependentUpon>InGame7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menus\Mainmenu.resx">
+      <DependentUpon>Mainmenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menus\Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="gamecontroller.resx">
+      <DependentUpon>gamecontroller.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menus\Options.resx">
+      <DependentUpon>Options.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Game\InGame.resx">
+      <DependentUpon>InGame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\the-legend-of-zelda-breath-of-the-wild-switch-hero.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chest_closed_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chest_open_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Coin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Enemy_1_down1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Enemy_1_left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Enemy_1_right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Enemy_1_up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\launcher.Map1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Link_down1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Link_down2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Link_down3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Link_down4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Link_down5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Link_down6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Link_down7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Link_down8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Link_down9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Link_down10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Link_left1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Link_left2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Link_left3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Link_left4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Link_left5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Link_left6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Link_left7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Link_left8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Link_left9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Link_left10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Link_right1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Link_right2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Link_right3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Link_right4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Link_right5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Link_right6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Link_right7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Link_right8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Link_right9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Link_right10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Link_stay_down1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Link_stay_down2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Link_stay_down3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Link_stay_left1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Link_stay_left2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Link_stay_left3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Link_stay_right1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Link_stay_right2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Link_stay_right3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Link_stay_up1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Link_up1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Link_up2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Link_up3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Link_up4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Link_up5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Link_up6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Link_up7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Link_up8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Link_up9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Link_up10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Heart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Zelda_MAP7.png" />
+    <None Include="Resources\Zelda_MAP6.png" />
+    <None Include="Resources\Zelda_MAP51.png" />
+    <None Include="Resources\Zelda_MAP5.png" />
+    <None Include="Resources\Zelda_MAP_5.png" />
+    <None Include="Resources\Zelda_MAP_4.png" />
+    <None Include="Resources\Zelda_MAP_3_bright.png" />
+    <None Include="Resources\Zelda_MAP_3_Light.png" />
+    <None Include="Resources\Zelda_MAP_3.png" />
+    <None Include="Resources\Zelda_MAP2.png" />
+    <None Include="Resources\Link.attack.down.png" />
+    <None Include="Resources\Zelda_MAP_mit_Balken.png" />
+    <None Include="Resources\ZELDA MAP.jpg" />
+    <None Include="Resources\latest.png" />
+    <None Include="Resources\Menu.png" />
+    <None Include="Resources\MiniBoss.down3.png" />
+    <None Include="Resources\MiniBoss.down4.png" />
+    <None Include="Resources\MiniBoss.down5.png" />
+    <None Include="Resources\MiniBoss.left.png" />
+    <None Include="Resources\MiniBoss.left2.png" />
+    <None Include="Resources\MiniBoss.left3.png" />
+    <None Include="Resources\MiniBoss.left4.png" />
+    <None Include="Resources\MiniBoss.left5.png" />
+    <None Include="Resources\MiniBoss.right.png" />
+    <None Include="Resources\MiniBoss.right2.png" />
+    <None Include="Resources\MiniBoss.right3.png" />
+    <None Include="Resources\MiniBoss.right4.png" />
+    <None Include="Resources\MiniBoss.right5.png" />
+    <None Include="Resources\MiniBoss.up.png" />
+    <None Include="Resources\MiniBoss.up2.png" />
+    <None Include="Resources\MiniBoss.up3.png" />
+    <None Include="Resources\MiniBoss.up4.png" />
+    <None Include="Resources\MiniBoss.down.png" />
+    <None Include="Resources\MiniBoss.down2.png" />
+    <None Include="Resources\MiniBoss.up5.png" />
+    <None Include="Resources\Fireball.right11.png" />
+    <None Include="Resources\Fireball.right10.png" />
+    <None Include="Resources\Fireball.right9.png" />
+    <None Include="Resources\Fireball.right8.png" />
+    <None Include="Resources\Fireball.right7.png" />
+    <None Include="Resources\Fireball.right6.png" />
+    <None Include="Resources\Fireball.right5.png" />
+    <None Include="Resources\Fireball.right4.png" />
+    <None Include="Resources\Fireball.right3.png" />
+    <None Include="Resources\Fireball.right2.png" />
+    <None Include="Resources\Fireball.right1.png" />
+    <None Include="Resources\Fireball.right12.png" />
+    <None Include="Resources\MiniBoss.crystal.png" />
+    <None Include="Resources\MiniBoss.rage.down.png" />
+    <None Include="Resources\MiniBoss.rage.right.png" />
+    <None Include="Resources\key_1.png" />
+    <None Include="Resources\Arrow.up.png" />
+    <None Include="Resources\Arrow.right.png" />
+    <None Include="Resources\Arrow.left.png" />
+    <None Include="Resources\Arrow.down.png" />
+    <None Include="Resources\MiniBoss.broke.png" />
+    <None Include="Resources\Chest.Boss.png" />
+    <None Include="Resources\Chest.boss.close.png" />
+    <None Include="Resources\Chest.Boss.open.png" />
+    <Content Include="Resources\Options.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
