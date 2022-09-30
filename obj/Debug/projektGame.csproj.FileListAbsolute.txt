@@ -1,0 +1,60 @@
+H:\Documents\Visual Studio 2019\Projects\projektGame\projektGame\bin\Debug\projektGame.exe.config
+H:\Documents\Visual Studio 2019\Projects\projektGame\projektGame\bin\Debug\projektGame.exe
+H:\Documents\Visual Studio 2019\Projects\projektGame\projektGame\bin\Debug\projektGame.pdb
+H:\Documents\Visual Studio 2019\Projects\projektGame\projektGame\bin\Debug\Engine.dll
+H:\Documents\Visual Studio 2019\Projects\projektGame\projektGame\bin\Debug\Engine.pdb
+H:\Documents\Visual Studio 2019\Projects\projektGame\projektGame\obj\Debug\projektGame.csprojAssemblyReference.cache
+H:\Documents\Visual Studio 2019\Projects\projektGame\projektGame\obj\Debug\projektGame.Properties.Resources.resources
+H:\Documents\Visual Studio 2019\Projects\projektGame\projektGame\obj\Debug\projektGame.csproj.GenerateResource.cache
+H:\Documents\Visual Studio 2019\Projects\projektGame\projektGame\obj\Debug\projektGame.csproj.CoreCompileInputs.cache
+H:\Documents\Visual Studio 2019\Projects\projektGame\projektGame\obj\Debug\projektGame.csproj.CopyComplete
+H:\Documents\Visual Studio 2019\Projects\projektGame\projektGame\obj\Debug\projektGame.exe
+H:\Documents\Visual Studio 2019\Projects\projektGame\projektGame\obj\Debug\projektGame.pdb
+H:\Documents\Visual Studio 2019\Projects\projektGame\projektGame\obj\Debug\projektGame.Adventure.resources
+E:\Users\NilsT\Desktop\projektGame\projektGame\bin\Debug\projektGame.exe.config
+E:\Users\NilsT\Desktop\projektGame\projektGame\bin\Debug\projektGame.exe
+E:\Users\NilsT\Desktop\projektGame\projektGame\bin\Debug\projektGame.pdb
+E:\Users\NilsT\Desktop\projektGame\projektGame\bin\Debug\Engine.dll
+E:\Users\NilsT\Desktop\projektGame\projektGame\bin\Debug\Engine.pdb
+E:\Users\NilsT\Desktop\projektGame\projektGame\obj\Debug\projektGame.csprojAssemblyReference.cache
+E:\Users\NilsT\Desktop\projektGame\projektGame\obj\Debug\projektGame.Adventure.resources
+E:\Users\NilsT\Desktop\projektGame\projektGame\obj\Debug\projektGame.Properties.Resources.resources
+E:\Users\NilsT\Desktop\projektGame\projektGame\obj\Debug\projektGame.csproj.GenerateResource.cache
+E:\Users\NilsT\Desktop\projektGame\projektGame\obj\Debug\projektGame.csproj.CoreCompileInputs.cache
+E:\Users\NilsT\Desktop\projektGame\projektGame\obj\Debug\projektGame.csproj.CopyComplete
+E:\Users\NilsT\Desktop\projektGame\projektGame\obj\Debug\projektGame.exe
+E:\Users\NilsT\Desktop\projektGame\projektGame\obj\Debug\projektGame.pdb
+E:\Users\NilsT\Desktop\projektGame\projektGame\obj\Debug\projektGame.InGame.resources
+E:\Users\NilsT\Documents\Visual Studio 2019\projektGame\projektGame\bin\Debug\projektGame.exe.config
+E:\Users\NilsT\Documents\Visual Studio 2019\projektGame\projektGame\bin\Debug\projektGame.exe
+E:\Users\NilsT\Documents\Visual Studio 2019\projektGame\projektGame\bin\Debug\projektGame.pdb
+E:\Users\NilsT\Documents\Visual Studio 2019\projektGame\projektGame\obj\Debug\projektGame.csprojAssemblyReference.cache
+E:\Users\NilsT\Documents\Visual Studio 2019\projektGame\projektGame\obj\Debug\projektGame.InGame.resources
+E:\Users\NilsT\Documents\Visual Studio 2019\projektGame\projektGame\obj\Debug\projektGame.Properties.Resources.resources
+E:\Users\NilsT\Documents\Visual Studio 2019\projektGame\projektGame\obj\Debug\projektGame.csproj.GenerateResource.cache
+E:\Users\NilsT\Documents\Visual Studio 2019\projektGame\projektGame\obj\Debug\projektGame.csproj.CoreCompileInputs.cache
+E:\Users\NilsT\Documents\Visual Studio 2019\projektGame\projektGame\obj\Debug\projektGame.exe
+E:\Users\NilsT\Documents\Visual Studio 2019\projektGame\projektGame\obj\Debug\projektGame.pdb
+E:\Users\NilsT\Documents\Visual Studio 2019\projektGame\projektGame\obj\Debug\projektGame.Options.resources
+E:\Users\NilsT\Documents\Visual Studio 2019\projektGame\projektGame\obj\Debug\projektGame.gamecontroller.resources
+E:\Users\NilsT\Documents\Visual Studio 2019\projektGame\projektGame\obj\Debug\projektGame.Menu.resources
+E:\Users\NilsT\Documents\Visual Studio 2019\projektGame\projektGame\bin\Debug\Interop.WMPLib.dll
+E:\Users\NilsT\Documents\Visual Studio 2019\projektGame\projektGame\bin\Debug\AxInterop.WMPLib.dll
+E:\Users\NilsT\Documents\Visual Studio 2019\projektGame\projektGame\obj\Debug\Interop.WMPLib.dll
+E:\Users\NilsT\Documents\Visual Studio 2019\projektGame\projektGame\obj\Debug\AxInterop.WMPLib.dll
+E:\Users\NilsT\Documents\Visual Studio 2019\projektGame\projektGame\obj\Debug\projektGame.csproj.ResolveComReference.cache
+E:\Users\NilsT\Documents\Visual Studio 2019\projektGame\projektGame\obj\Debug\projektGame.Game.InGame2.resources
+E:\Users\NilsT\Documents\Visual Studio 2019\projektGame\projektGame\obj\Debug\projektGame.Game.InGame3.resources
+E:\Users\NilsT\Documents\Visual Studio 2019\projektGame\projektGame\obj\Debug\projektGame.Menus.Mainmenu.resources
+E:\Users\NilsT\Documents\Visual Studio 2019\projektGame\projektGame\obj\Debug\projektGame.Game.InGame4.resources
+E:\Users\NilsT\Documents\Visual Studio 2019\projektGame\projektGame\obj\Debug\projektGame.Game.InGame5.resources
+E:\Users\NilsT\Documents\Visual Studio 2019\projektGame\projektGame\obj\Debug\projektGame.Game.InGame51.resources
+E:\Users\NilsT\Documents\Visual Studio 2019\projektGame\projektGame\obj\Debug\projektGame.Game.InGame6.resources
+E:\Users\NilsT\Documents\Visual Studio 2019\projektGame\projektGame\obj\Debug\projektGame.Game.InGame7.resources
+C:\Users\NilsT\Documents\Visual Studio 2019\projektGame\projektGame\obj\Debug\projektGame.csproj.AssemblyReference.cache
+C:\Users\NilsT\Documents\Visual Studio 2019\projektGame\projektGame\obj\Debug\projektGame.csproj.SuggestedBindingRedirects.cache
+C:\Users\NilsT\Documents\Visual Studio 2019\projektGame\projektGame\obj\Debug\Interop.WMPLib.dll
+C:\Users\NilsT\Documents\Visual Studio 2019\projektGame\projektGame\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\NilsT\Documents\Visual Studio 2019\projektGame\projektGame\obj\Debug\projektGame.csproj.ResolveComReference.cache
+C:\Users\NilsT\Documents\Visual Studio 2019\projektGame\projektGame\obj\Debug\projektGame.exe
+C:\Users\NilsT\Documents\Visual Studio 2019\projektGame\projektGame\obj\Debug\projektGame.pdb
